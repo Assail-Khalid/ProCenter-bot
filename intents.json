@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "How can I go to the programming center and meet with an educator?",
+        "What should I bring with me for the appointment?",
+        "How do I schedule an appointment on ProCenter?"
+      ],
+      "responses": [
+        "You can get help with any topic related to CSE courses by book an appointment ,and take any materials with you",
+        "You should first make an appointment and you can bring with you any materials you need.",
+        "choose the educator you want to book with and take your notes with you in programming center."
+      ]
+    },
+    {
+      "tag": "proCenter",
+      "patterns": [
+        "What is ProCenter??",
+        "Where can I find ProCenter?",
+        "What are the features of ProCenter?"
+      ],
+      "responses": [
+        "It's an online booking appointment website that helps students to book sessions with the educators to perform better in the exams. It is located at YUC the CSE department",
+        "the programming center is in computer Science and Engineering department at Yanbu University College. The website is helping students to book sessions with the educators",
+        "ProCenter website is for Programming center in CSE department, where you can book an appointment with an educator whenever you want. "
+      ]
+    },
+    {
+      "tag": "Cancle",
+      "patterns": [
+        "How do I change or cancel a scheduled appointment?",
+        "How can I cancel the appointment ?",
+        "I want to cancel my appointment"
+      ],
+      "responses": [
+        "To cancel an appointment made online, visit the appointments page and press cancel button",
+        "Click on the cancel button in my appointment page to cancel the appointment",
+        "You can easily cancel your appointment online in the appointment page,and later you can book another appointment to with best time for you."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Who should I contact if I face a problem?",
+        "Is there a way to contact you?",
+        " After I contact you, how long does it take for a response?",
+        " Can I contact you if I had any suggestions?"
+      ],
+      "responses": [
+        "In the contact page on the menu bar  fill in all the required information with a description of your problem, and we will try to respond to you as fast as we can.",
+        "on the contact page which is on the menu bar you can contact us and we will respont to you as soon as possible.",
+        "You can contact us and we are going to respond within one to two days.", 
+        " You can contact us from the contact page on the home menu bar and we will be happy for your suggestions"
+      ]
+    }
+  ]
+}
